@@ -1,0 +1,3 @@
+[submodule "lib/appixiacartapi"]
+	path = lib/appixiacartapi
+	url = https://appixia@github.com/appixia/cartapi-engine-php.git

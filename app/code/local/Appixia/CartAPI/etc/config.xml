@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<config>
+	<modules>
+        <Appixia_CartAPI>
+          <version>1.0.0</version>
+        </Appixia_CartAPI>
+     </modules>
+     <frontend>
+       <routers>
+          <routeurfrontend>
+              <use>standard</use>
+              <args>
+                 <module>Appixia_CartAPI</module>
+                 <frontName>appixia</frontName>
+              </args>
+           </routeurfrontend>
+       </routers>
+    </frontend>
+	<global>
+	  <helpers>
+	    <appixiacartapi>
+		  <class>Appixia_CartAPI_Helper</class>
+		</appixiacartapi>
+	  </helpers>
+	</global>
+</config>
